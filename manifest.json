@@ -1,0 +1,12 @@
+{
+        "manifest_version": 3,
+        "name": "Bromate by anmol",
+        "version": "1.0",
+        "description": "Perform basic tasks just ask...",
+        "permissions": ["activeTab","storage","audioCapture"],
+        "action": {
+          "default_popup": "popup.html",
+          "default_icon": "/assests/favicon.png"
+        }
+      }
+      

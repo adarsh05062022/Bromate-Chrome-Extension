@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bromate</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <h1>Bromate</h1>
+      </div>
+
+      <div class="buttons">
+        <div class="button">
+          <a href="#" id="start-button" class="btn-get-started">Start 🎙️</a>
+        </div>
+        <div class="button">
+          <a href="#" id="stop-button" class="btn-get-started">Stop 🛑</a>
+        </div>
+      </div>
+
+      <div class="textBoxes">
+        <div class="textBox">
+          <textarea
+            id="voice-input-text"
+            class="voice-input"
+            type="text"
+            placeholder="I am your query🙂"
+            rows="6"
+            cols="30"
+          ></textarea>
+          <div class="copyButtons">
+            <a href="#" id="input-copy-button" class="copyButton">copy</a>
+          </div>
+        </div>
+        <div class="textBox">
+          <textarea
+            id="voice-output-text"
+            class="voice-input"
+            placeholder="I am your output😎"
+            type="text"
+            rows="4"
+            cols="30"
+          ></textarea>
+          <div class="copyButtons">
+            <a href="#" id="output-copy-button" class="copyButton">copy</a>
+          </div>
+        </div>
+
+        <!-- <div class="buttons">
+          <div class="button">
+            <a href="#" id="input-copy-button" class="btn-get-started copyButton">Copy Input</a>
+          </div>
+          <div class="button">
+            <a href="#" id="output-copy-button" class="btn-get-started copyButton">Copy Output</a>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </body>
+  <script src="functions.js"></script>
+  <script src="queryProcessing.js"></script>
+  <script src="script.js"></script>
+</html>
