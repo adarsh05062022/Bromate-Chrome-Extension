@@ -37,9 +37,7 @@ startbutton.addEventListener("click", async () => {
       error.name === "NotAllowedError" ||
       error.name === "PermissionDismissedError"
     ) {
-      console.error(
-        "Permission to access microphone was dismissed or denied by the user."
-      );
+      
       // Provide user feedback
       startbutton.innerText = "Permission Denied";
       const extensionOrigin = chrome.runtime.getURL("");
