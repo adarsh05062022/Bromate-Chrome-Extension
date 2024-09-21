@@ -35,7 +35,7 @@ Bromate is a voice-activated Chrome extension that brings convenience to your br
 
 # Copy code
 #      git clone
-           https://github.com/your-username/bromate-extension.git
+           https://github.com/adarsh05062022/bromate-extension.git
 
 
 
